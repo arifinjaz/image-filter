@@ -8,6 +8,19 @@ The can can filter bitmap images in following filters:
 3) Blur: function should take an image and turn it into a box-blurred version of the same image.
 4) Edges: function should take an image and highlight the edges between objects, according to the Sobel operator.
 
+Usage
+
+Your program should behave per the examples below.
+
+$ ./filter -g infile.bmp outfile.bmp
+
+$ ./filter -r infile.bmp outfile.bmp
+
+$ ./filter -b infile.bmp outfile.bmp
+
+$ ./filter -e infile.bmp outfile.bmp
+
+
 
 Filter
 
